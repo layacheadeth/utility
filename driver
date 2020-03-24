@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        function.questionOne();
+        function.questionTwo(30);
+        function.questionThree();
+        System.out.println("input size of magic square(odd): ");
+        int size = scan.nextInt();
+        function.questionFour(size);
+
+    }
+}
